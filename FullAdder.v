@@ -4,7 +4,7 @@ module FullAdder (	input a,
 					output s,
 					output cout);
 
-	//This code segments are for you decide implement the full-adder directly
+	//This code segments are for a direct implementation of the full adder circuit, rather than combining the half adders.
 	//assign cout = ((a ^ b) & cin) | (a & b);
 	//assign s = (cin ^ (a ^ b));
 
